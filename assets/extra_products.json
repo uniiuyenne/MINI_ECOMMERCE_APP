@@ -1,1 +1,362 @@
-[]
+[
+  {
+    "id": 3001,
+    "title": "Laptop Ultrabook 14 inch Core i5",
+    "price": 28.9,
+    "description": "Thiết kế mỏng nhẹ, phù hợp học tập, văn phòng và di chuyển hằng ngày.",
+    "category": "Laptop",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 214 }
+  },
+  {
+    "id": 3002,
+    "title": "Laptop Gaming RTX 4060 16GB RAM",
+    "price": 49.5,
+    "description": "Hiệu năng mạnh cho game, đồ họa và làm việc đa nhiệm.",
+    "category": "Laptop",
+    "image": "",
+    "rating": { "rate": 4.7, "count": 168 }
+  },
+  {
+    "id": 3003,
+    "title": "Laptop Sinh Vien 15.6 inch SSD 512GB",
+    "price": 24.8,
+    "description": "Cau hinh can bang, man hinh lon, phu hop hoc online va van phong.",
+    "category": "Laptop",
+    "image": "",
+    "rating": { "rate": 4.3, "count": 132 }
+  },
+  {
+    "id": 3004,
+    "title": "Laptop Do Hoa OLED 2.8K",
+    "price": 56.2,
+    "description": "Man hinh sac net, mau sac tot cho thiet ke va chinh sua anh.",
+    "category": "Laptop",
+    "image": "",
+    "rating": { "rate": 4.8, "count": 94 }
+  },
+  {
+    "id": 3005,
+    "title": "May Tinh Bang 11 inch WiFi 128GB",
+    "price": 16.4,
+    "description": "Phu hop giai tri, hoc tap va ghi chu nhanh moi luc moi noi.",
+    "category": "May tinh bang",
+    "image": "",
+    "rating": { "rate": 4.4, "count": 201 }
+  },
+  {
+    "id": 3006,
+    "title": "May Tinh Bang 10 inch cho tre em",
+    "price": 9.8,
+    "description": "Vo chong soc, giao dien don gian, phu hop hoc va xem noi dung co kiem soat.",
+    "category": "May tinh bang",
+    "image": "",
+    "rating": { "rate": 4.2, "count": 86 }
+  },
+  {
+    "id": 3007,
+    "title": "May Tinh Bang but cam ung 256GB",
+    "price": 21.9,
+    "description": "Toi uu cho ghi chu, ve phac thao va xu ly cong viec di dong.",
+    "category": "May tinh bang",
+    "image": "",
+    "rating": { "rate": 4.6, "count": 128 }
+  },
+  {
+    "id": 3008,
+    "title": "May Tinh Bang pin lon 8000mAh",
+    "price": 14.9,
+    "description": "Pin ben, loa kep, phu hop xem phim va hop truc tuyen.",
+    "category": "May tinh bang",
+    "image": "",
+    "rating": { "rate": 4.3, "count": 174 }
+  },
+  {
+    "id": 3009,
+    "title": "Ta dan em be cao cap 52 mieng",
+    "price": 1.2,
+    "description": "Mem mai, tham hut tot, giup be kho thoang suot ngay dem.",
+    "category": "Me va be",
+    "image": "",
+    "rating": { "rate": 4.7, "count": 412 }
+  },
+  {
+    "id": 3010,
+    "title": "Xe day gap gon cho be",
+    "price": 8.7,
+    "description": "Khung chac chan, de gap gon, thuan tien khi di choi va du lich.",
+    "category": "Me va be",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 96 }
+  },
+  {
+    "id": 3011,
+    "title": "Binh sua co rong chong day hoi",
+    "price": 0.9,
+    "description": "Chat lieu an toan, de ve sinh, phu hop cho tre nho.",
+    "category": "Me va be",
+    "image": "",
+    "rating": { "rate": 4.4, "count": 245 }
+  },
+  {
+    "id": 3012,
+    "title": "Ghe an dam da nang cho be",
+    "price": 4.3,
+    "description": "Khung vung, de lau chui, co day an toan va dieu chinh do cao.",
+    "category": "Me va be",
+    "image": "",
+    "rating": { "rate": 4.6, "count": 72 }
+  },
+  {
+    "id": 3013,
+    "title": "Hat cho meo truong thanh 1.5kg",
+    "price": 1.1,
+    "description": "Cong thuc can bang dinh duong, phu hop su dung moi ngay.",
+    "category": "Thu cung",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 318 }
+  },
+  {
+    "id": 3014,
+    "title": "Day dan cho cho phan quang",
+    "price": 0.7,
+    "description": "Chat lieu ben, de dieu chinh, tang kha nang nhin thay khi di dem.",
+    "category": "Thu cung",
+    "image": "",
+    "rating": { "rate": 4.2, "count": 141 }
+  },
+  {
+    "id": 3015,
+    "title": "Nha nem mem cho meo",
+    "price": 2.8,
+    "description": "Dem mem am, thiet ke gon, phu hop trong nha va can ho.",
+    "category": "Thu cung",
+    "image": "",
+    "rating": { "rate": 4.6, "count": 88 }
+  },
+  {
+    "id": 3016,
+    "title": "Binh nuoc tu dong cho thu cung",
+    "price": 1.9,
+    "description": "Giu nuoc sach hon, de lap dat va phu hop cho ca cho va meo.",
+    "category": "Thu cung",
+    "image": "",
+    "rating": { "rate": 4.3, "count": 104 }
+  },
+  {
+    "id": 3017,
+    "title": "Router WiFi 6 bang tan kep",
+    "price": 3.6,
+    "description": "Ket noi on dinh cho gia dinh, toc do tot khi hoc va lam viec tu xa.",
+    "category": "Thiet bi mang",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 189 }
+  },
+  {
+    "id": 3018,
+    "title": "Bo kich song WiFi 1200Mbps",
+    "price": 1.5,
+    "description": "Mo rong phu song cho nha nhieu phong, thiet lap nhanh gon.",
+    "category": "Thiet bi mang",
+    "image": "",
+    "rating": { "rate": 4.1, "count": 133 }
+  },
+  {
+    "id": 3019,
+    "title": "Switch 8 cong Gigabit",
+    "price": 1.7,
+    "description": "Ket noi nhieu thiet bi day, phu hop van phong nho va gia dinh.",
+    "category": "Thiet bi mang",
+    "image": "",
+    "rating": { "rate": 4.4, "count": 76 }
+  },
+  {
+    "id": 3020,
+    "title": "Mesh WiFi 2 node phu song rong",
+    "price": 5.4,
+    "description": "Phu hop can ho nhieu tang, roaming muot hon trong qua trinh di chuyen.",
+    "category": "Thiet bi mang",
+    "image": "",
+    "rating": { "rate": 4.6, "count": 91 }
+  },
+  {
+    "id": 3021,
+    "title": "Set vo 12 cay gel mau pastel",
+    "price": 0.6,
+    "description": "Mau muc dep, viet muot, phu hop ghi chu va trang tri so tay.",
+    "category": "Van phong pham",
+    "image": "",
+    "rating": { "rate": 4.4, "count": 203 }
+  },
+  {
+    "id": 3022,
+    "title": "So tay cham bullet A5",
+    "price": 0.8,
+    "description": "Giay day, de viet va de len ke hoach hoc tap, cong viec.",
+    "category": "Van phong pham",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 165 }
+  },
+  {
+    "id": 3023,
+    "title": "But highlight 6 mau",
+    "price": 0.5,
+    "description": "Mau sac ro, de danh dau tai lieu va ghi chu tren lop.",
+    "category": "Van phong pham",
+    "image": "",
+    "rating": { "rate": 4.3, "count": 149 }
+  },
+  {
+    "id": 3024,
+    "title": "Bia dung tai lieu 12 ngan",
+    "price": 0.7,
+    "description": "Sap xep giay to gon gang, phu hop hoc sinh va van phong.",
+    "category": "Van phong pham",
+    "image": "",
+    "rating": { "rate": 4.2, "count": 117 }
+  },
+  {
+    "id": 3025,
+    "title": "Noi com dien mini 1.2L",
+    "price": 2.5,
+    "description": "Phu hop nguoi doc than, nau nhanh va de lau chui.",
+    "category": "Thiet bi nha bep",
+    "image": "",
+    "rating": { "rate": 4.4, "count": 138 }
+  },
+  {
+    "id": 3026,
+    "title": "May xay sinh to 2 coi 500W",
+    "price": 1.9,
+    "description": "Xay nhanh trai cay va sinh to, co coc xay thuan tien.",
+    "category": "Thiet bi nha bep",
+    "image": "",
+    "rating": { "rate": 4.3, "count": 101 }
+  },
+  {
+    "id": 3027,
+    "title": "Lo nuong dien 12L da nang",
+    "price": 3.8,
+    "description": "Nuong banh, quay ga va ham nong thuc an trong mot thiet bi.",
+    "category": "Thiet bi nha bep",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 84 }
+  },
+  {
+    "id": 3028,
+    "title": "May ep cham trai cay",
+    "price": 4.2,
+    "description": "Giu lai nhieu dinh duong hon, phu hop lam nuoc ep moi ngay.",
+    "category": "Thiet bi nha bep",
+    "image": "",
+    "rating": { "rate": 4.6, "count": 63 }
+  },
+  {
+    "id": 3029,
+    "title": "Loa soundbar Bluetooth 80W",
+    "price": 5.3,
+    "description": "Am thanh ro rang, tang trai nghiem xem phim va nghe nhac tai nha.",
+    "category": "Am thanh",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 92 }
+  },
+  {
+    "id": 3030,
+    "title": "Micro khong day livestream",
+    "price": 2.6,
+    "description": "Thu am on dinh, ket noi de dang voi dien thoai va laptop.",
+    "category": "Am thanh",
+    "image": "",
+    "rating": { "rate": 4.4, "count": 58 }
+  },
+  {
+    "id": 3031,
+    "title": "Tai nghe choi game co mic",
+    "price": 1.8,
+    "description": "Dem tai mem, mic ro, phu hop cho game va hop online.",
+    "category": "Am thanh",
+    "image": "",
+    "rating": { "rate": 4.3, "count": 177 }
+  },
+  {
+    "id": 3032,
+    "title": "Loa mini cam tay du lich",
+    "price": 1.4,
+    "description": "Kich thuoc gon nhe, pin kha, phu hop picnic va di chuyen.",
+    "category": "Am thanh",
+    "image": "",
+    "rating": { "rate": 4.2, "count": 121 }
+  },
+  {
+    "id": 3033,
+    "title": "May say toc ion am 1600W",
+    "price": 1.7,
+    "description": "Lam kho toc nhanh, giam roi toc va de thao tac tai nha.",
+    "category": "Cham soc ca nhan",
+    "image": "",
+    "rating": { "rate": 4.4, "count": 208 }
+  },
+  {
+    "id": 3034,
+    "title": "May cao rau 3 dau chong nuoc",
+    "price": 2.1,
+    "description": "Ve sinh de, cam nam chac tay, phu hop su dung hang ngay.",
+    "category": "Cham soc ca nhan",
+    "image": "",
+    "rating": { "rate": 4.3, "count": 113 }
+  },
+  {
+    "id": 3035,
+    "title": "Ban chai dien thong minh",
+    "price": 1.3,
+    "description": "Hen gio danh rang, dau ban chai mem va pin su dung ben.",
+    "category": "Cham soc ca nhan",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 156 }
+  },
+  {
+    "id": 3036,
+    "title": "May rua mat song am",
+    "price": 1.9,
+    "description": "Ho tro lam sach sau va massage da mat nhe nhang.",
+    "category": "Cham soc ca nhan",
+    "image": "",
+    "rating": { "rate": 4.2, "count": 88 }
+  },
+  {
+    "id": 3037,
+    "title": "Lều cam trai 4 nguoi chong mua",
+    "price": 4.9,
+    "description": "Khung chac chan, de dung, phu hop picnic va cam trai cuoi tuan.",
+    "category": "Do cam trai",
+    "image": "",
+    "rating": { "rate": 4.6, "count": 73 }
+  },
+  {
+    "id": 3038,
+    "title": "Den pin doi dau 3 che do",
+    "price": 0.9,
+    "description": "Anh sang on dinh, thuan tien cho leo nui, cau ca va dung khan cap.",
+    "category": "Do cam trai",
+    "image": "",
+    "rating": { "rate": 4.4, "count": 119 }
+  },
+  {
+    "id": 3039,
+    "title": "Bep gas du lich mini",
+    "price": 1.6,
+    "description": "Nho gon, de mang theo, phu hop nau nuong ngoai troi.",
+    "category": "Do cam trai",
+    "image": "",
+    "rating": { "rate": 4.3, "count": 94 }
+  },
+  {
+    "id": 3040,
+    "title": "Tui ngu giu am 2 lop",
+    "price": 2.7,
+    "description": "Chat lieu mem, giu am tot cho nhung chuyen cam trai va du lich.",
+    "category": "Do cam trai",
+    "image": "",
+    "rating": { "rate": 4.5, "count": 66 }
+  }
+]

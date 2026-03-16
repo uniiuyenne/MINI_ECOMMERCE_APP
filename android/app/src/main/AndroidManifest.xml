@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="mini_ecommerce_app_skeleton"
+        android:label="mini_e_commerce_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
