@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "id": 2001,
+    "title": "Giày Sneaker Trắng Unisex",
+    "price": 3.4,
+    "description": "Giày sneaker basic, đế êm, phù hợp đi học và đi làm.",
+    "category": "Giày dép",
+    "image": "https://loremflickr.com/400/400/sneakers?lock=2001",
+    "rating": { "rate": 4.6, "count": 180 }
+  },
+  {
+    "id": 2002,
+    "title": "Giày Tây Nam Da Mềm",
+    "price": 4.2,
+    "description": "Thiết kế lịch sự, form ôm chân, phù hợp môi trường công sở.",
+    "category": "Giày dép",
+    "image": "https://loremflickr.com/400/400/oxford-shoes?lock=2002",
+    "rating": { "rate": 4.4, "count": 145 }
+  },
+  {
+    "id": 2003,
+    "title": "Sandal Nữ Quai Mảnh",
+    "price": 2.1,
+    "description": "Sandal nhẹ, dễ phối đồ, phù hợp di chuyển hằng ngày.",
+    "category": "Giày dép",
+    "image": "https://loremflickr.com/400/400/sandals?lock=2003",
+    "rating": { "rate": 4.1, "count": 98 }
+  },
+  {
+    "id": 2004,
+    "title": "Tai Nghe Bluetooth ANC",
+    "price": 6.8,
+    "description": "Âm thanh rõ, chống ồn tốt, pin dùng cả ngày.",
+    "category": "Phụ kiện",
+    "image": "https://loremflickr.com/400/400/headphones?lock=2004",
+    "rating": { "rate": 4.7, "count": 320 }
+  },
+  {
+    "id": 2005,
+    "title": "Smartwatch Theo Dõi Sức Khỏe",
+    "price": 6.2,
+    "description": "Theo dõi nhịp tim, giấc ngủ, kết nối thông báo tiện lợi.",
+    "category": "Đồng hồ",
+    "image": "https://loremflickr.com/400/400/smartwatch?lock=2005",
+    "rating": { "rate": 4.3, "count": 205 }
+  },
+  {
+    "id": 2006,
+    "title": "Vali Du Lịch 24 inch",
+    "price": 4.6,
+    "description": "Vali cứng, bánh xoay 360 độ, phù hợp chuyến đi 3-5 ngày.",
+    "category": "Đồ du lịch",
+    "image": "https://loremflickr.com/400/400/suitcase?lock=2006",
+    "rating": { "rate": 4.2, "count": 88 }
+  },
+  {
+    "id": 2007,
+    "title": "PC Văn Phòng i5/16GB/512GB",
+    "price": 28.5,
+    "description": "Cấu hình ổn định cho học tập, văn phòng và làm việc từ xa.",
+    "category": "Máy tính",
+    "image": "https://loremflickr.com/400/400/desktop-computer?lock=2007",
+    "rating": { "rate": 4.5, "count": 210 }
+  },
+  {
+    "id": 2008,
+    "title": "Serum Vitamin C 30ml",
+    "price": 8.5,
+    "description": "Hỗ trợ sáng da, giảm thâm sạm, dùng sáng tối.",
+    "category": "Mỹ phẩm",
+    "image": "https://loremflickr.com/400/400/serum?lock=2008",
+    "rating": { "rate": 4.2, "count": 95 }
+  },
+  {
+    "id": 2009,
+    "title": "Bộ Bút Gel 10 Màu",
+    "price": 0.9,
+    "description": "Mực ra đều, nét mượt, phù hợp ghi chú học tập.",
+    "category": "Văn phòng",
+    "image": "https://loremflickr.com/400/400/gel-pen?lock=2009",
+    "rating": { "rate": 4.0, "count": 60 }
+  },
+  {
+    "id": 2010,
+    "title": "Camera Hành Trình Full HD",
+    "price": 2.8,
+    "description": "Ghi hình rõ nét, hỗ trợ lái xe an toàn hơn.",
+    "category": "Ô tô",
+    "image": "https://loremflickr.com/400/400/dashcam?lock=2010",
+    "rating": { "rate": 4.1, "count": 74 }
+  },
+  {
+    "id": 2011,
+    "title": "Smart TV 4K 55 inch",
+    "price": 24.0,
+    "description": "Màn hình sắc nét, hỗ trợ ứng dụng giải trí phổ biến.",
+    "category": "Điện tử",
+    "image": "https://loremflickr.com/400/400/smart-tv?lock=2011",
+    "rating": { "rate": 4.6, "count": 410 }
+  },
+  {
+    "id": 2012,
+    "title": "Bình Nước Thể Thao 1L",
+    "price": 0.9,
+    "description": "Giữ nhiệt vừa phải, nắp kín chống rò rỉ.",
+    "category": "Thể thao",
+    "image": "https://loremflickr.com/400/400/water-bottle?lock=2012",
+    "rating": { "rate": 4.0, "count": 50 }
+  },
+  {
+    "id": 2013,
+    "title": "Kệ Sách 5 Tầng Khung Sắt",
+    "price": 3.7,
+    "description": "Chịu lực khá, phù hợp phòng ngủ hoặc phòng làm việc.",
+    "category": "Nội thất",
+    "image": "https://loremflickr.com/400/400/bookshelf?lock=2013",
+    "rating": { "rate": 4.3, "count": 120 }
+  },
+  {
+    "id": 2014,
+    "title": "Cà Phê Rang Xay 500g",
+    "price": 1.8,
+    "description": "Hương đậm, phù hợp pha phin hoặc pha máy.",
+    "category": "Đồ uống",
+    "image": "https://loremflickr.com/400/400/coffee?lock=2014",
+    "rating": { "rate": 4.2, "count": 76 }
+  },
+  {
+    "id": 2015,
+    "title": "Túi Đeo Chéo Da PU",
+    "price": 2.6,
+    "description": "Thiết kế gọn nhẹ, nhiều ngăn tiện dụng.",
+    "category": "Túi ví",
+    "image": "https://loremflickr.com/400/400/crossbody-bag?lock=2015",
+    "rating": { "rate": 4.1, "count": 48 }
+  },
+  {
+    "id": 2016,
+    "title": "iPhone 15 128GB (Mock)",
+    "price": 29.9,
+    "description": "Mock product for display; use real image.",
+    "category": "Điện thoại",
+    "image": "https://loremflickr.com/400/400/iphone?lock=2016",
+    "rating": { "rate": 4.8, "count": 980 }
+  },
+  {
+    "id": 2017,
+    "title": "Robot Lắp Ráp 320 Chi Tiết",
+    "price": 2.2,
+    "description": "Giúp rèn tư duy logic và tính kiên nhẫn cho trẻ.",
+    "category": "Đồ chơi",
+    "image": "https://loremflickr.com/400/400/robot-toy?lock=2017",
+    "rating": { "rate": 4.0, "count": 34 }
+  },
+  {
+    "id": 2018,
+    "title": "Nồi Chiên Không Dầu 5.5L",
+    "price": 5.2,
+    "description": "Nhiều chế độ nấu, phù hợp gia đình 3-5 người.",
+    "category": "Đồ gia dụng",
+    "image": "https://loremflickr.com/400/400/air-fryer?lock=2018",
+    "rating": { "rate": 4.4, "count": 210 }
+  }
+]
