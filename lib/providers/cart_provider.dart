@@ -14,6 +14,7 @@ class CartProvider extends ChangeNotifier {
 
   List<CartItem> get items => List.unmodifiable(_items);
   int get uniqueItemCount => _items.length;
+  int get uniqueProductCount => _items.map((item) => item.product.id).toSet().length;
 
   bool get isAllSelected =>
       _items.isNotEmpty && _items.every((element) => element.isSelected);

@@ -7,7 +7,6 @@ import '../../widgets/banner_slider.dart';
 import '../../widgets/cart_badge_icon.dart';
 import '../../widgets/category_grid.dart';
 import '../../widgets/product_card.dart';
-import '../cart/cart_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -122,10 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               actions: [
                 CartBadgeIcon(
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (_) => const CartScreen()),
-                  ),
+                  onTap: () {},
                   iconColor: _isScrolled ? Colors.white : Colors.black,
                 ),
               ],
