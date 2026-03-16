@@ -23,15 +23,34 @@ class MiniECommerceApp extends StatelessWidget {
         Provider(create: (_) => OrderRemoteService()),
         ChangeNotifierProvider(create: (_) => AccountProfileProvider()),
         ChangeNotifierProvider(create: (_) => AuthProvider()),
-        ChangeNotifierProvider(create: (_) => ProductProvider()),
-        ChangeNotifierProvider(create: (_) => CartProvider()),
-        ChangeNotifierProvider(create: (_) => OrderProvider()),
+        ChangeNotifierProvider(
+          create: (context) => ProductProvider(context.read<ApiService>()),
+        ),
+        ChangeNotifierProxyProvider<AuthProvider, CartProvider>(
+          create: (context) => CartProvider(context.read<CartLocalService>()),
+          update: (context, authProvider, cartProvider) {
+            final provider =
+                cartProvider ?? CartProvider(context.read<CartLocalService>());
+            provider.updateUser(authProvider.user?.uid);
+            return provider;
+          },
+        ),
+        ChangeNotifierProxyProvider<AuthProvider, OrderProvider>(
+          create: (context) => OrderProvider(context.read<OrderRemoteService>()),
+          update: (context, authProvider, orderProvider) {
+            final provider =
+                orderProvider ?? OrderProvider(context.read<OrderRemoteService>());
+            provider.updateUser(authProvider.user?.uid);
+            return provider;
+          },
+        ),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Mini E-Commerce App Skeleton',
+        title: 'Ứng dụng bán hàng mini',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFFF5722)),
+          scaffoldBackgroundColor: const Color(0xFFF8F8F8),
           useMaterial3: true,
         ),
         home: const HomeScreen(),
