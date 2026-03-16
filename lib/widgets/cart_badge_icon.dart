@@ -1,37 +1,56 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../providers/cart_provider.dart';
 
 class CartBadgeIcon extends StatelessWidget {
   const CartBadgeIcon({
     super.key,
-    this.count = 0,
-    this.onPressed,
+    required this.onTap,
+    this.iconColor,
   });
 
-  final int count;
-  final VoidCallback? onPressed;
+  final VoidCallback onTap;
+  final Color? iconColor;
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      clipBehavior: Clip.none,
-      children: [
-        IconButton(
-          onPressed: onPressed,
-          icon: const Icon(Icons.shopping_cart_outlined),
-        ),
-        if (count > 0)
-          Positioned(
-            right: 6,
-            top: 6,
-            child: CircleAvatar(
-              radius: 8,
-              child: Text(
-                '$count',
-                style: const TextStyle(fontSize: 10),
-              ),
+    return Consumer<CartProvider>(
+      builder: (context, cart, child) {
+        return Stack(
+          clipBehavior: Clip.none,
+          children: [
+            IconButton(
+              onPressed: onTap,
+              icon: Icon(Icons.shopping_cart_outlined, color: iconColor),
             ),
-          ),
-      ],
+            if (cart.uniqueItemCount > 0)
+              Positioned(
+                right: 6,
+                top: 6,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
+                  decoration: BoxDecoration(
+                    color: Colors.red,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  constraints: const BoxConstraints(minWidth: 18, minHeight: 18),
+                  child: Text(
+                    cart.uniqueItemCount > 99
+                        ? '99+'
+                        : '${cart.uniqueItemCount}',
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 10,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
+              ),
+          ],
+        );
+      },
     );
   }
 }
